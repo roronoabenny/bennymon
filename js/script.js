@@ -127,7 +127,7 @@ async function renderPages(pages) {
   pageElement.setAttribute("class", "waves-effect")
 
   var pageLink = document.createElement("a")
-  pageLink.setAttribute("href", "file:///Z:/bennymon/index.html?page=" + pages)
+  pageLink.setAttribute("href", "?page=" + pages)
   pageElement.appendChild(pageLink)
 
   var pageItemId = document.createTextNode(pages)
